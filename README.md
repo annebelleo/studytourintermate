@@ -1,2 +1,2 @@
 # studytourintermate
-website for the intermit study tour committee
+website for the intermate study tour committee
