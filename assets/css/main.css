@@ -2180,7 +2180,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 2em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -4047,6 +4047,69 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling clock */
+#countdown {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#countdown li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+#countdown li span {
+	display: inline-block;
+  font-size: 4.5rem;
+}
+
+#countdown .message {
+  font-size: 4rem;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
+#countdown .emoji {
+  padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+
+  li span {
+    font-size: 3.375rem;
+  }
+}
 
 /* XSmall */
 
